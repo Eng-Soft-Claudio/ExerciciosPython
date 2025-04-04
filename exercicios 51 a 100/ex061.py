@@ -1,0 +1,9 @@
+termo = int(input("Informe o primeiro termo da PA: "))
+razao = int(input("Informe a razão da PA: "))
+pa = 10
+print(termo, end=" ->")
+while pa != 0:
+    termo += razao
+    print(f" {termo}", end="")
+    print(" ->" if pa > 1 else "", end="")
+    pa -= 1

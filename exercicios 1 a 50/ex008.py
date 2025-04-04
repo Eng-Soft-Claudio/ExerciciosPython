@@ -1,0 +1,7 @@
+print("=" * 55)
+valor = float(input("Informe a distância em metros a ser convertida: "))
+print("=" * 55)
+print(f"Distância a ser convertida: {valor}m")
+print(f"Equivale a: {valor * 100}cm")
+print(f"Equivale a: {valor * 1000}mm")
+print("=" * 30)

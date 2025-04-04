@@ -1,0 +1,6 @@
+info = input("Digite qualquer informação: ")
+print("Tipo primitivo: ", type(info))
+print("Contém apenas espaços? ", info.isspace())
+print("Contém números e/ou letras? ", info.isalnum())
+print("Contém apenas letras? ", info.isalpha())
+print("Contém apenas números? ", info.isnumeric())
