@@ -1,0 +1,19 @@
+# __pycache__ e arquivos temporários
+__pycache__/
+*.py[cod]
+*.so
+*.log
+
+# Configurações de IDEs e editores
+.vscode/
+.idea/
+*.swp
+
+# Ambientes virtuais
+env/
+venv/
+.venv/
+
+# Arquivos de sistema (Windows, Linux, Mac)
+.DS_Store
+Thumbs.db
